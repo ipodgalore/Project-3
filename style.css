@@ -1,0 +1,55 @@
+/*General CSS for all 3 webpages*/
+body {
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: grey;
+}
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	border-top-style: none;
+	color: red;
+}
+h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	border-top-style: none;
+	color: blue;}
+p {
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+}
+
+/*CSS for Links*/
+nav {
+  padding-bottom: 10px;
+  width:245px;
+  position:relative;
+}
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    background-color: #ffffff;
+}
+.nav li {
+
+	display: inline;
+}
+.nav li a {
+    display: inline-block;
+    font-size: 1em;
+    color: black;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+/*CSS for Images*/
+img {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 245px;
+}
+table, td {
+	border: 1px solid black;
+	width: 245px;
+}
