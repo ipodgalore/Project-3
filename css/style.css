@@ -1,3 +1,31 @@
+/*CSS for Links*/
+nav {
+  padding-bottom: 10px;
+  width:450px;
+  position:center;
+}
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  background-color: #ffffff;
+  position:center;
+}
+.nav li {
+
+	display: inline;
+	position:center;
+}
+.nav li a {
+	display: inline-block;
+  font-size: 1em;
+  color: black;
+  padding: 15px 15px;
+  text-decoration: none;
+  position:center;
+	text-align:center;
+}
 /*General CSS for all 3 webpages*/
 body {
 	margin-left: 10px;
@@ -18,30 +46,6 @@ p {
 	color: black;
 }
 
-/*CSS for Links*/
-nav {
-  padding-bottom: 10px;
-  width:245px;
-  position:relative;
-}
-.nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-    background-color: #ffffff;
-}
-.nav li {
-
-	display: inline;
-}
-.nav li a {
-    display: inline-block;
-    font-size: 1em;
-    color: black;
-    padding: 15px 15px;
-    text-decoration: none;
-}
 /*CSS for Images*/
 img {
 	border: 1px solid #ddd;
