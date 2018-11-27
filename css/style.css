@@ -1,11 +1,13 @@
 /*CSS for Links*/
 nav {
+  font-family: "Arial Black", Gadget, sans-serif;
   border:1px solid #ccc;
-    border-width:1px 0;
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
+  border-width:1px 0;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+  font-size: 125%;
 }
 .nav ul {
 	list-style-type: none;
@@ -13,7 +15,6 @@ nav {
 	padding: 0;
 	overflow: hidden;
   background-color: #ffffff;
-  position:center;
 }
 .nav li {
 
@@ -23,24 +24,47 @@ nav {
 	display:inline-block;
     padding:10px;
 }
-/*General CSS for all 3 webpages*/
+
+/*General CSS for all 4 webpages*/
+a {
+   color:inherit;
+   color:#fa625f;
+}
 body {
-	margin-left: 10px;
-	margin-right: 10px;
-	background-color: grey;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #e1e8f0;
 }
 h1 {
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Arial Black", Gadget, sans-serif;
 	border-top-style: none;
-	color: red;
+	color: #c9af98;
+  font-size: 250%;
 }
 h2 {
 	font-family: "Arial Black", Gadget, sans-serif;
 	border-top-style: none;
-	color: blue;}
+	color: blue;
+  font-size: 150%;
+}
+h3 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 150%;
+}
+h4 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 105%;
+  text-decoration: underline;
+}
 p {
-	font-family: "Times New Roman", Times, serif;
-	color: black;
+	font-family: "Ariel", Helvetica, sans-serif;
+  font-size: 111%;
+}
+li {
+  font-family: "Ariel", Helvetica, sans-serif;
+  font-size: 111%;
+  margin-left: 20px;
+	margin-right: 20px;
 }
 
 /*CSS for Images*/
@@ -50,21 +74,37 @@ img {
 	padding: 5px;
 	width: 245px;
 }
+.pix img {
+  flex-wrap: nowrap;
+}
+.text a {
+  flex-wrap: nowrap;
+}
 table, td {
 	border: 1px solid black;
 	width: 245px;
 }
 
 /*CSS for Youtube Video*/
-div.frame {
-	position:relative;
-	height:0;
-	padding-bottom:36%;
+.frame div {
+	position: relative;
+	height: 0;
+	padding-bottom: 36%;
 }
 iframe {
 	position:absolute;
-	width:100%;
-	height:100%;
-	left:0" width="911" height="360" frameborder="0" allow="autoplay; encrypted-media"
+	width: 100%;
+	height: 100%;
+	left: 0;
+	width: 911px;
+	height: 360px;
 }
-=
+
+/*CSS for Maps*/
+#map {
+  height: 600px;
+  width: 100%;
+}
+.key div {
+
+}
