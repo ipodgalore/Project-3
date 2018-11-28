@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-  <h2>Project 1 - Simeon Wilson</h2>
+  <h2>Project 3 - Simeon Wilson</h2>
   <nav class="nav">
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -17,9 +17,45 @@
     </ul>
   </nav>
     <h1>Significant Locations</h1>
-      <p>
-        
-      </p>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var point = {lat: 37.09024, lng: -95.712891};
+        var Grandparents = {lat: 31.556093, lng: -84.161529};
+        var Nana = {lat: 32.210136, lng: -110.846432};
+        var MyHome = {lat: 41.758766, lng: -88.148339};
 
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: point
+        });
+
+        var marker = new google.maps.Marker({
+          position: Grandparents,
+          map: map,
+          title: "g"
+        });
+        var marker = new google.maps.Marker({
+          position: Nana,
+          map: map,
+          title: "n"
+        });
+        var marker = new google.maps.Marker({
+          position: MyHome,
+          map: map,
+          title: "h"
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCG1zWSCUUyVD_4uJ_bNhSqvbYVX3VcqP4&callback=initMap">
+    </script>
+
+<div class="key">
+  <h2><u>Key</u></h2>
+    <p>Arizona - My Nana's Home</p>
+    <p>Georgia - My Grandparent's Home</p>
+    <p>Illinois - My Home</p>
+</div>
 </body>
 </html>
